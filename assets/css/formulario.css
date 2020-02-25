@@ -1,0 +1,67 @@
+h1{
+    float: left;
+}
+a{
+    float: right;
+    padding-right: 20px;
+    text-decoration: none;
+}
+#menu{
+    float: right;
+}
+#textarea{
+text-align: center;
+clear: both;
+}
+form{
+    margin: 0 auto;
+    align-content: center;
+    width: 50%;
+
+}
+
+ol li {
+    list-style-type: none;
+}
+textarea{
+    width: 100%;
+    margin-bottom: 20px;
+}
+h5{
+    text-align: left;
+    margin: auto;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h5 span {
+    color: red;
+}
+input{
+    margin-top: 0px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+button{
+    background-color: coral;
+    color: cornsilk;
+    font-weight: 700;
+    padding: 10px;
+    float: left;
+}
+
+#nombre{
+    color: rgb(252, 132, 52);
+    font-weight: 1000;
+    margin-left: 200px;
+    text-transform: uppercase;
+    float: left;
+}
+#apellido{
+    color: rgb(34, 33, 33);
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+nav{
+    margin-right: 200px;
+}

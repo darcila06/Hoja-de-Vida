@@ -1,0 +1,328 @@
+body{
+	margin: 0 auto;
+	clear: both;
+	width: 90%;
+}
+section{
+	width: 60%;
+	margin: initial;
+	float: left;
+}
+#cuadro{
+	width: 5%;
+	height: 20%;
+	background: rgb(0, 132, 255);
+	float: left;
+	position: static;
+}
+
+aside{
+	width: 25%; 
+	float: right;
+}
+
+#habilidades{
+	float: left;
+}
+
+#pln{
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	font-size: -webkit-xxx-large;
+}
+
+#nombre{
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(0, 132, 255);
+	font-size: -webkit-xxx-large;
+	margin: 0px 5px;
+}
+
+#pla{
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	font-size: 65px;
+}
+
+#apellido{
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(0, 0, 0);
+	font-size: 65px;
+}
+#extras{
+	color: gray;
+	margin-left: 30%;
+	clear: both;
+}
+.separador {
+	color:gray;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+ul {
+	list-style: none; /* Remove HTML bullets */
+	margin: 0;
+  }
+  
+  li { 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+  }
+  
+  li::before {
+	content: ">"; /* Insert content that looks like bullets */
+	padding-right: 8px;
+  }
+
+  #hab{
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(25, 194, 19);
+	font-size: 30px; 
+	clear: both;
+	  float: left;
+  }
+
+  .hab{
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(25, 194, 19);
+	font-size: 30px; 
+	clear: both;
+
+  }
+
+  #cuerpo{
+	clear: both;
+  }
+
+  #esp{
+	width: 40%;
+	float: left;
+
+  }
+
+  #exp{
+	clear: both;
+}
+
+  .liazul{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: rgb(52, 157, 228);
+  }
+
+  .esp{
+	font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+  .col2{
+	  width: 70%;
+	  text-align: left;
+	  vertical-align: top;
+		text-transform: uppercase;
+		color: grey;
+		float: left;
+  }
+
+  #col2{
+	width: 68%;
+	margin: 2px;
+	text-align: left;
+	vertical-align: top;
+	  text-transform: uppercase;
+	  color: black;
+	  font-weight: bold;
+	  float: left;
+	margin-bottom: 5px;
+}
+
+  .col1{
+	width: 29%;
+	margin: 2px;
+	text-align: left;
+	vertical-align: top;
+	  text-transform: uppercase;
+	  color: grey;
+	  float: left;
+	  clear: both;
+}
+
+  .col2 span{
+	width: 70%;
+	text-align: left;
+	vertical-align: top;
+	text-transform: uppercase;
+	color: rgb(0, 132, 255);
+	float: left;
+	
+  }
+
+  img.redes{
+	  width: 20%;
+	 margin: 0px 2%; 
+	  height: 25%;
+	  display: block;
+	  float: left;
+	  padding: 0px;
+	  
+  }
+
+  #estudios{
+	clear: both;
+}
+.lista{
+	width: 8%;
+	height: 8%;
+	clear: both;
+	float: left;
+}
+
+p.fecha{
+	width: 79%;
+	margin: 2% 30%;
+	padding-top: 10px;
+	text-align: left;
+	vertical-align: top;
+	text-transform: uppercase;
+	color: grey;
+	font-size: 20px;
+}
+
+p.titulo{
+	width: 79%;
+	margin: 2% 30%;
+	padding-top: 10px;
+	text-align: left;
+	vertical-align: top;
+	text-transform: uppercase;
+	color: rgb(0, 174, 255);
+	font-size: 20px;
+}
+p.escuela{
+	width: 79%;
+	margin: 2% 30%;
+	padding-top: 10px;
+	text-align: left;
+	vertical-align: top;
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+}
+#barra-azul{
+	width: 30%;
+	height: 20px;
+	background: rgb(0, 132, 255);
+	float: left;
+	clear: both;
+}
+#barra-verde{
+	width: 30%;
+	height: 20px;
+	margin-top: 1%;
+	margin-left: 1%;
+	background: rgb(25, 194, 19);
+	float: left;
+}
+
+img{
+	width: 80%;
+	padding: 0px 10%;
+	height: 50%;
+}
+
+
+.fila{
+	background-color: black;
+	color: white;
+	text-align: left;
+	height: 3%;
+}
+h4{
+	padding: 2%;
+}
+p.adicional{
+	text-transform: capitalize;
+	text-align: left;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+p.nombre{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+span.apellido{
+	text-transform: uppercase;
+}
+.referencias{
+	margin: 2px;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+	
+	aside{
+		width: 100%; 
+		float: left;
+		clear: both;
+	}
+	
+	section{
+		width: 100%;
+		margin: initial;
+		float: left;
+	}
+
+	#extras {
+		color: gray;
+		margin-left: 30%;
+		clear: both;
+	}
+
+	#cuadro{
+		width: 10%;
+		height: 20%;
+		background: rgb(0, 132, 255);
+		float: left;
+		position: static;
+	}
+	
+	#habilidades{
+		float: left;
+		width: 55%;
+	}
+	
+	ul {
+		list-style: none;
+    	float: left;
+    	padding-left: 0px;
+    	width: 100%;
+	  }
+
+	#esp {
+		float: left;
+		margin: 0px;
+		width: 44%;
+	}
+
+	img.foto:first-of-type {
+		width: 30%;
+    	padding: 0px 10%;
+    	height: 15%;
+    	position: absolute;
+    	top: 2%;
+    	left: 55%;
+	}
+	
+  }
